@@ -1,8 +1,9 @@
 .background-hd {
 	background-image: url(../images/background.png);
 	background-repeat: no-repeat;
-	width: 100%;
+	width: 1280px;
 	height: 900px;
+
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -45,7 +46,80 @@ li {
 	transform: translate(-50%, -50%);
 	color: #fff;
 	font-size: 100px;
+} 
+.section1 {
+	width: 1280px;
+	height: 601.44px;
 }
+
+.wrapper-box {
+	width: 1280px; 
+	height: 601.44px;
+    display: flex;
+}
+
+.left-box {
+	width: 640px; 
+	height: 601.44px;
+	position: relative;
+
+}
+
+.title1 {
+	width: 468px
+	height: 186px;
+	font-size: 50px;
+	position: absolute;
+	top: 90px;
+	left: 86px;
+	vertical-align: middle;
+	
+
+}
+
+.title2 {
+	width: 468px;
+	height: 118px;
+	font-size: 18px;
+	position: absolute;
+	left: 86px;
+	top: 300px;
+}
+.box-1 {
+	width: 307px;
+	height: 72px;
+	background-color: #325DFF;
+	left: 82px;
+	bottom: 101.4px;
+	position: absolute;
+	border-radius: 36px;
+	justify-content: center;
+	align-items: center;
+	
+}
+.box-title {
+	width: 217px;
+	height: 22px;
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	top: 27px;
+	left: 65px; 
+}
+
+.glass-tower {
+	width: 640px;
+	height: 601px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
