@@ -1,7 +1,8 @@
 .background-hd {
 	background-image: url(../images/background.png);
 	background-repeat: no-repeat;
-	width: 100%;
+	max-width: 1280px;
+	width: 100%; 
 	height: 900px;
 
 	background-size: cover;
@@ -48,6 +49,7 @@ li {
 	font-size: 80px;
 } 
 .section1 {
+	max-width: 1280px;
 	width: 100%;
 	height: 601.44px;
 	justify-content: center;
@@ -56,6 +58,7 @@ li {
 
 .wrapper-box {
 	width: 1280px; 
+	
 	height: 601.44px;
     display: flex;
 }
@@ -66,6 +69,7 @@ li {
 	position: relative;
 
 }
+
 
 .title1 {
 	width: 468px
@@ -118,7 +122,7 @@ li {
 .container3 {
 	width: 1171px;
 	height: 965px;
-	margin: 0 auto;
+	margin-left: 55px;
 	margin-top: 146px;
 	background-color: #F4F5FC;
 	border: 2px; 
@@ -140,6 +144,7 @@ li {
 .line-1 {
 	display: flex;
 	justify-content: space-between;
+
 }
 
 .line-2 {
